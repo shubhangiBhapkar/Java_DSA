@@ -7,7 +7,7 @@ public class palindromeNum {
             reverseNum = reverseNum * 10 + num;
             x/=10;
         }
-        return x ==reverseNum;
+        return x == reverseNum;
     }
     public static void main(String arg[]){
         int x=121;

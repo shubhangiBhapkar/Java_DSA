@@ -7,9 +7,7 @@ public class subArray {
                 int sum=0;
                 for(int k=i;k<j;k++){
                     System.out.print(num[k]+" ");
-                    sum+=num[k];
-                    
-                    
+                    sum+=num[k];    
                 }     
                 if(sum>max){
                     max=sum;

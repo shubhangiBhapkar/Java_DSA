@@ -7,7 +7,7 @@ public class kadansAlgo {
             if(i>=0){
                 flag=true;
             }
-        }
+        }      
         if(flag=true){
             System.out.println("negative array");
             //find smallest smallest negative value print
