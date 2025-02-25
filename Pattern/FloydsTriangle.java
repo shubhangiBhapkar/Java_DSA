@@ -1,3 +1,4 @@
+package Pattern;
 public class FloydsTriangle {
     public static void floyds_triangle(int n){
         int counter=1;

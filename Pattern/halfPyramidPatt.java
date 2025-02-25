@@ -1,3 +1,5 @@
+package Pattern;
+
 public class halfPyramidPatt {
     public static void main(String a[]){
         int i,j;

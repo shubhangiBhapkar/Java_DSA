@@ -1,3 +1,5 @@
+package Pattern;
+
 public class Half_Pyramid{
     public static void hlafInvPyramid(int n){
         for(int i=0;i<=n;i++){

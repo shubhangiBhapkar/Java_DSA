@@ -1,3 +1,5 @@
+package Pattern;
+
 public class HalfNoPyramid {
     public static void HalfNumPyramid(int n){
         for(int i=1;i<=n;i++){
