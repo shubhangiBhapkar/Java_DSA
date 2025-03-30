@@ -10,3 +10,4 @@ public class Get_Bit {
        getBit(00001111,3);
     }
 }
+
