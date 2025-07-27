@@ -15,5 +15,8 @@ public class LowerCaseLetters {
         System.out.println("Enter a sentence");
         String str=sc.nextLine();
         System.out.println("The number of vowels in enter sentence :"+getVowelsNo(str));
+
+        // String s="ApnaCollege".replace("l","");
+        // System.out.println(s);
     }
 }

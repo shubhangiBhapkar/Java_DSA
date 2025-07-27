@@ -1,3 +1,4 @@
+
 public class subArray {
    
     public static void printSubArray(int num[]){   
