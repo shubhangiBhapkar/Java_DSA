@@ -8,6 +8,7 @@ public class StrLength {
 
         getLength(str);
         len++;
+        return len;
     }
     public static void main(String[] args){
         getLength("shub");

@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.lang.*;
 public class Item {
-    public static void main(String[] args){
+    public static void main(String[] args) throws RuntimeException, Throwable{
         BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter the number of products:");
         int n=Integer.parseInt(br.readLine());
