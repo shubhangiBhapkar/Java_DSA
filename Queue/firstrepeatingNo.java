@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
 public class firstrepeatingNo {
     public static void getFirst(String str){
         int freq[] = new int[26];
