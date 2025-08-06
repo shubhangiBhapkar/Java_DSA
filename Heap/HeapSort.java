@@ -1,5 +1,3 @@
-
-
 public class HeapSort {
 
     public static void heapify(int arr[], int i, int n) {
