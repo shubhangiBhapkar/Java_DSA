@@ -30,7 +30,6 @@ public class Anangram {
         return map.isEmpty();
     }
 
-
 public static void main(String[] args) {
     if (isAnangram("tulip", "lupid")) {
         System.out.println("true");
