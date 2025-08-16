@@ -1,15 +1,19 @@
 import java.util.*;
 public class IteratorSet {
     public static void main(String[] args){
-        HashSet<String> set = new HashSet<>();
-        set.add("India");
-        set.add("china");
-        set.add("US");
-        set.add("Nepal");
+        HashSet<String> cities = new HashSet<>();
+     cities.add("India");
+     cities.add("china");
+     cities.add("US");
+     cities.add("Nepal");
 
-        Iterator it = set.iterator();
+        Iterator it = cities.iterator();
         while(it.hasNext()){
             System.out.println(it.next());
+        }
+
+        for (String city : cities) {
+            System.out.println(city);
         }
     }
 }
