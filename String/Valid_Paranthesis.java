@@ -1,5 +1,4 @@
 import java.util.Stack;
-
 public class Valid_Paranthesis {
     public static boolean getValidParanthesis(String s) {
         Stack<Character> stack = new Stack<>();
@@ -21,12 +20,9 @@ public class Valid_Paranthesis {
                     return false;
                 }
             }
-
         }
         return stack.isEmpty();
-
     }
-
     public static void main(String args[]) {
         String s = "({})]";
         System.out.println(getValidParanthesis(s));
