@@ -17,6 +17,7 @@ public class SubArrayCnt {
         System.out.print(countSubarrays(arr));
 
         
+        
     }
 
 }
