@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.Queue;
+import java.util.Stack;
+import java.util.LinkedList;
 public class Reverse {
     public static void getReverse(Queue<Integer> q) {
         Stack<Integer> s = new Stack<>();

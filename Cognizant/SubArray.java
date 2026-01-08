@@ -1,3 +1,4 @@
+// 3392
 public class SubArray{
     public static int getSubArray(int[] num,int length){
         int count=0;
@@ -7,6 +8,7 @@ public class SubArray{
             }
         }
         return count;
+        
     }
     public static void main(String args[]){
         int num[] = {1,2,1,3,5,2,4,2};
